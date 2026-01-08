@@ -3341,8 +3341,6 @@ components:
       type: object
     Querybuildertypesv5OrderByKey:
       properties:
-        '-':
-          $ref: '#/components/schemas/TelemetrytypesJSONDataType'
         description:
           type: string
         fieldContext:
@@ -3396,8 +3394,6 @@ components:
           $ref: '#/components/schemas/ErrorsJSON'
         status:
           type: string
-      type: object
-    TelemetrytypesJSONDataType:
       type: object
     TypesChangePasswordRequest:
       properties:
